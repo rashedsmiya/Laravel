@@ -92,3 +92,22 @@ a.nav-link.find_btn:hover {
   background: #5cad2f;
   color: #fff;
 }
+
+.mediya2{
+  width: 322px;
+  height: 334px;
+  top: 1071px;
+  left: 300px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+.pull-left img{
+  width: 71px;
+  height: 71px;
+  top: 1121px;
+  left: 332px; 
+  gap: 0px;
+  opacity: 0px;
+}
