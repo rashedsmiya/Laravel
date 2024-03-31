@@ -179,14 +179,7 @@ a.nav-link.find_btn:hover {
   background-position: center;
 }
 
-.more-service .single-item .icon-box {
-  position: relative;
-  display: block;
-  font-size: 55px;
-  margin-bottom: 20px;
-  color: #87c332;
 
-}
 .more-service .single-item h3 {
   display: block;
   font-size: 22px;
@@ -230,31 +223,6 @@ p {
 }
 
 
-.more-service .single-item .link a {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 60px; 
-  line-height: 64px;
-  font-size: 15px;
-  color: #fff;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0px 15px 40px 10px rgba(0, 0, 0, 0.12);
-  z-index: 1;
-  transform: scale(0, 0);
-  transition: all 500ms ease;
-}
-.more-service .single-item .link a {
-  background: var(--thm-base);
-}
-
-.more-service .single-item {
-  position: relative;
-  display: block;
-  padding: 40px 40px 75px 30px;
-  margin-bottom: 45px;
-}
 
 .more-service .single-item .bg-shape {
   position: absolute;
@@ -272,10 +240,8 @@ p {
   display: block;
   font-size: 55px;
   margin-bottom: 20px;
-}
-
-.more-service .single-item .icon-box {
   color: #87c332;
+
 }
 
 .more-service .image-box {
@@ -304,24 +270,19 @@ p {
   background-repeat: no-repeat;
 }
 
-.ml_90 {
-  margin-left: 90px;
+figure img {
+  margin-top: 210px;
 }
+
 
 .more-service .right-column .single-item {
   padding: 40px 30px 80px 40px;
   margin-bottom: 35px;
 }
 
-.more-service .single-item {
-  position: relative;
-  display: block;
-  padding: 40px 40px 75px 30px;
-  margin-bottom: 45px;
-}
 
-
-.more-service .right-column .single-item .bg-shape {
+.more-service .right-column .single-item .bg-
+{
   width: 420px;
   height: 415px;
 }
