@@ -88,12 +88,251 @@ a.nav-link.find_btn:hover {
   gap: 10px;
   transition: 0.3s ease all;
 }
+
 .city a:hover {
   background: #5cad2f;
   color: #fff;
 }
-.more_service2{
-  padding: 46px;
-  text-align: center;
+
+.more-service {
+  padding: 115px 0px 120px 0px;
+  position: relative;
 }
 
+.auto-container {
+  position: static;
+  max-width: 1320px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.sec-title {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sec-title .sub-title {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  color: #87c332;
+}
+
+.sec-title h2 {
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.sec-title h2 span {
+  color: #87c332;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-0.5* var(--bs-gutter-x));
+  margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.inner-content{
+  text-align: right;
+  margin-right: 90px;
+}
+
+.more-service .single-item {
+  position: relative;
+  display: block;
+  padding: 40px 40px 75px 30px;
+  margin-bottom: 45px;
+}
+
+
+.more-service .single-item .bg-shape {
+  position: absolute;
+  left: -60px;
+  top: -40px;
+  width: 440px;
+  height: 435px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.more-service .single-item .icon-box {
+  position: relative;
+  display: block;
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: #87c332;
+
+}
+.more-service .single-item h3 {
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+
+.more-service .single-item h3 a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+h3 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin: 0px;
+  transition: all 500ms ease;
+}
+
+p {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  color: #676767;
+  font-weight: 400;
+  margin: 0px;
+  transition: all 500ms ease;
+}
+
+.more-service .left-column .single-item .link {
+  right: 40px;
+}
+
+.more-service .single-item .link {
+  position: absolute;
+  bottom: -20px;
+}
+
+
+.more-service .single-item .link a {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px; 
+  line-height: 64px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 15px 40px 10px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+  transform: scale(0, 0);
+  transition: all 500ms ease;
+}
+.more-service .single-item .link a {
+  background: var(--thm-base);
+}
+
+.more-service .single-item {
+  position: relative;
+  display: block;
+  padding: 40px 40px 75px 30px;
+  margin-bottom: 45px;
+}
+
+.more-service .single-item .bg-shape {
+  position: absolute;
+  left: -60px;
+  top: -40px;
+  width: 440px;
+  height: 435px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.more-service .single-item .icon-box {
+  position: relative;
+  display: block;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.more-service .single-item .icon-box {
+  color: #87c332;
+}
+
+.more-service .image-box {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more-service .image-box .image-shape .shape-1 {
+  position: absolute;
+  left: -100px;
+  top: 25px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid rgba(229, 229, 229, 0.6);
+  border-radius: 50%;
+}
+
+.more-service .image-box .image-shape .shape-2 {
+  position: absolute;
+  left: -90px;
+  top: 115px;
+  width: 584px;
+  height: 373px;
+  background-repeat: no-repeat;
+}
+
+.ml_90 {
+  margin-left: 90px;
+}
+
+.more-service .right-column .single-item {
+  padding: 40px 30px 80px 40px;
+  margin-bottom: 35px;
+}
+
+.more-service .single-item {
+  position: relative;
+  display: block;
+  padding: 40px 40px 75px 30px;
+  margin-bottom: 45px;
+}
+
+
+.more-service .right-column .single-item .bg-shape {
+  width: 420px;
+  height: 415px;
+}
+
+.more-service .single-item .bg-shape {
+  position: absolute;
+  left: -60px;
+  top: -40px;
+  width: 440px;
+  height: 435px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
