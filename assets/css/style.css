@@ -3,25 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
 h4 {
   font-family: "Outfit", sans-serif;
 }
+
 body {
   font-family: "Inter", sans-serif;
 }
+
 /* Header started */
+
 header#head {
   background: url(/assets/img/hero_bg.png) no-repeat scroll 0 0;
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
+
 .overlay {
   position: relative;
 }
+
 .overlay::before {
   content: "";
   position: absolute;
@@ -33,26 +39,33 @@ header#head {
   opacity: 0.89;
   z-index: 0;
 }
+
 .park_menu a {
   color: #fff;
 }
+
 .park_menu a:hover {
   color: #5cad2f;
 }
+
 a.nav-link.find_btn {
   background: #5cad2f;
   border-radius: 10px;
 }
+
 a.nav-link.find_btn:hover {
   background: #fff;
 }
+
 .parking_hero {
   position: relative;
   z-index: 1;
 }
+
 .park_menu a {
   color: #fff;
 }
+
 .hero_left h1 {
   font-size: 54px;
   text-transform: capitalize;
@@ -61,23 +74,29 @@ a.nav-link.find_btn:hover {
   color: #fff;
   font-weight: 600;
 }
+
 .hero_left h1 span {
   color: #5cad2f;
 }
+
 .parking_search {
   margin: 30px 0;
 }
+
 .parking_search input {
   box-shadow: none !important;
 }
+
 .parking_search .btn {
   background: #5cad2f;
 }
+
 .city {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
+
 .city a {
   display: inline-block;
   background: #fff;
@@ -202,7 +221,7 @@ h3 {
   color: #000000;
   margin: 0px;
   transition: all 500ms ease;
-}
+} 
 
 p {
   position: relative;
@@ -221,8 +240,6 @@ p {
   position: absolute;
   bottom: -20px;
 }
-
-
 
 .more-service .single-item .bg-shape {
   position: absolute;
@@ -281,8 +298,7 @@ figure img {
 }
 
 
-.more-service .right-column .single-item .bg-
-{
+.more-service .right-column .single-item .bg-{
   width: 420px;
   height: 415px;
 }
@@ -296,4 +312,9 @@ figure img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.shop-section {
+  position: relative;
+  padding: 115px 0px;
 }
