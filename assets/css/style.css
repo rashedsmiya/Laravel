@@ -24,6 +24,17 @@ header#head {
   height: 100vh;
 }
 
+.margintop{
+  margin-top: 100px;
+}
+
+a.nav-link.disabled {
+  background-color: #cfffb6;
+  border-radius: 10px;
+}
+
+
+
 .overlay {
   position: relative;
 }
@@ -323,3 +334,7 @@ figure img {
   margin: auto;
 }
 
+.mobilbc{
+ background-image: url(../img/mbackground.png);
+ background-position-x: right;
+}
