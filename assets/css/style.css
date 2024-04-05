@@ -143,7 +143,7 @@ a.nav-link.find_btn:hover {
 
 .bg-shape {
   position: absolute;
-  left: -60px;
+  left: -140px;
   top: -40px;
   width: 440px;
   height: 435px;
@@ -213,7 +213,7 @@ p {
 
 .image-box .image-shape .shape-2 {
   position: absolute;
-  left: -90px;
+  left: -126px;
   top: 115px;
   width: 584px;
   height: 373px;
@@ -221,12 +221,12 @@ p {
 }
 
 .ml_90 {
-  margin-left: 90px;
+  margin-left: 170px;
 }
 
 
 .buttonaddon2{
-  background-color: #5cad2f;
+  background-color: #5CAD2F;
     border-radius: 10px;
     padding: 10px;
     color: #fff; 
@@ -237,7 +237,7 @@ p {
   margin-top: -50px;
   border-radius: 3px 40px 2px 40px;
   text-align: center;
-  padding: 10px;
+  padding: 35px;
 }
 
 
@@ -254,6 +254,7 @@ p {
   line-height: 52px;
   font-weight: 700;
   margin: 13px;
+  margin-left: -167px;
 }
 
 input#mce-EMAIL {
@@ -344,7 +345,7 @@ input[type="submit"] {
 
 .accordion-button::after{
   
-  background-image: url(../img/square-plus-regular.svg);
+  background-image: url(../img/plus-solid11.svg);
 } 
 
 .backgroundborder{
@@ -352,8 +353,73 @@ input[type="submit"] {
 }
 
 .border22{
-  border: 5px solid #dfdfdf;
-  border-radius: 8px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 38px 0px #0B223933;
+  width: 40%;
 }
 
 
+div#accordionFlushExample {
+  margin-top: 43px;
+  margin-left: 40px;
+}
+
+.col-md-6.centred {
+  margin-left: 85px;
+}
+
+img.images11 {
+  width: 166%;
+  margin-left: -132px;
+}
+
+
+.icon-box1{
+  position: relative;
+  margin-left: -92px;
+} 
+
+.icon-box2 {
+  position: relative;
+  margin-left: -92px;
+} 
+
+.icon-box3 {
+  position: relative;
+  margin-left: -92px;
+} 
+.icon-box4{
+  position: relative;
+  margin-left: -92px;
+} 
+
+h3.floatleft {
+  margin-left: -92px;
+}
+
+.more-btn{
+  text-align: center;
+}
+
+a.theme-btn-one {
+  background-color:#5CAD2F;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.img4 img {
+  width: 50px;
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+
+input.allbutton {
+  width: 135px;
+  margin-left: -154px;
+  border-radius: 5px;
+  background-color:#5CAD2F;
+  color: #fff;
+}
