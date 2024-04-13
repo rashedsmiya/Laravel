@@ -23,7 +23,7 @@ body {
 
 
 .icon1 {
-  margin-left: 129px;
+  margin-left: 125px;
   margin-bottom: -31px;
   margin-top: 16px;
   color: #fff;
@@ -92,4 +92,97 @@ button.navbutton {
   background-image: url(../img/Rectangle\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  /* position: relative;
+  overflow: hidden; */
 } 
+
+.overlay1{
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000A3;
+}
+
+.content1 {
+  float: right;
+  margin-right: 220px;
+  margin-top: -52px;
+}
+
+.content2 {
+  float: right;
+  margin-right: -370px;
+  margin-top: -39px;
+  color: #fff;
+}
+
+.topbar2 h3 {
+  margin-left: 80px;
+  margin-top: -55px;
+  font-size: 18px; 
+}
+
+.topbar1 {
+  margin-top: -32px;
+  margin-left: 35px;
+  color: #fff;
+}
+
+.row.top-1 {
+  /* padding-top: 100px;
+   */
+   /* max-width: 1140px; */
+   padding-bottom: 100px;
+   padding-top: 100px;
+}
+
+
+.backimg{
+  background-image: url(../img/blue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topbar3 h1 {
+  margin-left: 80px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.backimg.col-md-6 {
+  padding: 40px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  max-width: 42%;
+  margin-left: 65px;
+}
+
+.topbar11 img {
+  float: left;
+  margin-top: 2px;
+}
+
+.gkobal {
+  margin-left: 547px;
+  margin-top: -412px;
+}
+
+p.\[paragramed\] {
+  margin-left: 578px;
+  margin-top: -288px;
+}
+
+button.navbuttonq1 {
+  margin-left: 571px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #2B65EB;
+  color: #fff;
+}
+
+.col-md-6.levelleft {
+  margin-right: 43px;
+  margin-left: -43px;
+}
