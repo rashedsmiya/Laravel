@@ -316,3 +316,44 @@ figure.\# img {
   border-radius: 5px;
   color: blue;
 }
+
+button.btnbtnprimary {
+  background-color:  #2B65EB;;
+  color: #fff;
+  margin: 5px;
+  padding: 1px;
+  margin-left: -73px;
+  margin-right: 5px;
+  border-radius: 6px;
+}
+
+.footerbg {
+  background-color:#000000;
+  
+}
+
+.elementor-widget-container {
+  margin-left: 108px;
+  padding: 10px;
+}
+
+.elementor-widget-container span a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  
+}
+
+hr {
+  color: #fff;
+  padding: 1px;
+  margin-right: 200px;
+  background-color: #ffffff;
+}
+
+.element {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 90px;
+}
