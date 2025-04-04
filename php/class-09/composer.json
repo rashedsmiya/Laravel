@@ -1,0 +1,21 @@
+{
+    "name": "user/portfolio",
+    "description": "This is a  protfolio website",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }, 
+    "authors": [
+        {
+            "name": "Md Rashed Miya"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
+
