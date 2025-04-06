@@ -1,15 +1,19 @@
 <?php 
 
-     namespace App\Models;
+    
+namespace App\Models;
 
-     class User{ 
-          
-          private $conn;
-          private $table = "users";
+use PDO;
 
-          public $id;
-          public $name;
-          public $email;
+class User
+{
+    private $conn;
+    private $table = "users";
+
+    public $id;
+    public $name;
+    public $email;
+    public $password;
 
     public function __construct($db)
     {
@@ -32,7 +36,14 @@
             return $user; // Return user data for session handling
         }
 
-        return false; // Login failed 
+        return false; // Login failed
     }
 
+     public function users(){
+        $query = "SELCET * FROM " . $this->table;
+        $users = $this->conn->prepare($query);
+        $users->execute();
+        $users = $users->fetchAll(PDO::FETCH_ASSOC);
+        return $users; 
+     } 
 }

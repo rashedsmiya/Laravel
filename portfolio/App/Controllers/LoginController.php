@@ -1,30 +1,33 @@
-<?php  
+<?php
 
-    namespace App\Controllers;
+namespace App\Controllers;
 
-    use App\Models\User;
-    use App\Config\Database;  
+use App\Models\User;
+use App\Config\Database;
 
-    class LoginController{         
+class LoginController
+{
+
     private $db;
     private $userModel;
 
     public function __construct()
     {
-        // session_start();
-        // if (isset($_SESSION['user_name'])) {
-        //     header("Location: /dashboard");
-        // }
+        session_start();
+        if (isset($_SESSION['user_name'])) {
+            header("Location: /dashboard");
+        }
         $database = new Database();
         $this->db = $database->getConnection();
         $this->userModel = new User($this->db);
     }
 
+
     public function login()
     {
-        // require_once "../App/Views/Auth/login.php";
-        require_once __DIR__ . '/../Views/Auth/login.php';
+        require_once '../App/Views/Auth/login.php';
     }
+
 
     public function loginCheck()
     {
@@ -35,8 +38,11 @@
             $errors = [];
 
             // Validation checks
-            if (empty($email) || empty($password)) {
-                $errors[] = "Email and Password are required.";
+            if (empty($email)) {
+                $errors[] = "Email field is required.";
+            }
+            if (empty($password)) {
+                $errors[] = "Password field is required.";
             }
 
             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -51,26 +57,25 @@
 
             if (!empty($errors)) {
                 $_SESSION['errors'] = $errors;
-                header("Location: /");
+                header("Location: /login");
             } else {
 
                 // Call the login method from the User model
-                $user = $this->userModel->loginCheck($_POST['email'], $_POST['password']);
-                if ($user) {
+                $users = $this->userModel->loginCheck($_POST['email'], $_POST['password']);
+                if ($users) {
                     // Start session and store user data
-                    session_start();
-                    $_SESSION['user_id'] = $user['id'];
-                    $_SESSION['user_name'] = $user['name'];
-                    $_SESSION['user_email'] = $user['email'];
+                    $_SESSION['user_id'] = $users['id'];
+                    $_SESSION['user_name'] = $users['name'];
+                    $_SESSION['user_email'] = $users['email'];
 
                     $success = "Login Successful! Welcome, " . $_SESSION['user_name'];
                     $_SESSION['success'] = $success;
                     header("Location: /dashboard");
                     exit();
                 } else {
-                    $errors[] = 'Invalid email or password.';
+                    $errors[] = 'Data not found in database.';
                     $_SESSION['errors'] = $errors;
-                    header("Location: /");
+                    header("Location: /login");  
                 }
             }
         }
@@ -81,7 +86,6 @@
         session_start();
         session_destroy();
         session_unset();
-        header("Location: /");
+        header("Location: /login");
     }
 }
-

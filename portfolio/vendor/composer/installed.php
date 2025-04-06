@@ -3,7 +3,7 @@
         'name' => 'user/portfolio',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e04345fc0c969164490a892433228fc3249876c2',
+        'reference' => '2591d2a9ae3d3856f267ee0daad6fed6be14d4fc',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'user/portfolio' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e04345fc0c969164490a892433228fc3249876c2',
+            'reference' => '2591d2a9ae3d3856f267ee0daad6fed6be14d4fc',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
