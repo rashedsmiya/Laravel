@@ -1,0 +1,55 @@
+<?php
+
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
+class CategoryController extends Controller
+{ 
+     
+    public function index()
+    {
+        return view('admin.category.index');
+
+    }
+
+    public function create(Request $request)
+    {
+        $data = [];
+
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+        
+            // Get original file name
+            $fileName = $file->getClientOriginalName();
+        
+            // Get file extension
+            $fileExtension = $file->getClientOriginalExtension();
+        
+            // Store the file in the 'public/images' directory
+            $path = $file->store('images', 'public');
+        
+            // Save the file path in the $data array
+            $data['image'] = $path;
+        }
+
+        // dd($data);
+
+        DB::table('categories')->insert([
+            'name'        => $request->name,
+            'description' => $request->description,
+            'image'       => $data['image'],
+            'status'      => $request->status, 
+        ]);
+
+        return back()->with('message', 'Category info create successfully');
+    }
+
+    public function manage()
+    {
+        return view('admin.category.manage');
+    }
+}
+
+
+    
