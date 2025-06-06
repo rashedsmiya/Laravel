@@ -9,3 +9,5 @@
     });
 
     Route::get('/home', [HomeController::class, 'index']);
+
+
