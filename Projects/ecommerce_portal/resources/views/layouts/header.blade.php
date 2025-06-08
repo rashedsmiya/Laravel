@@ -10,7 +10,7 @@
     <link href="{{asset('build/assets/css/style.css')}}" rel="stylesheet">
 </head>
 <body>
-       
+
 <nav class="navbar navbar-expand-lg theme-navbar">
     <div class="container">
         <a class="navbar-brand text-light" href="#" ><h1>E Commerce</h1></a>
