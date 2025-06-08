@@ -4,6 +4,7 @@
 
     use App\Http\Controllers\HomeController;
     use App\Http\Controllers\CategoryController;
+    use App\Http\Controllers\SubcategoryController;
 
     Route::get('/', function () {
         return view('welcome');
@@ -11,8 +12,9 @@
 
     Route::get('/', [HomeController::class,'index']);
 
-    Route::get('/category/{slug}/{id}',[CategoryController::class,'detail']);
+    Route::get('/category/{slug}',[CategoryController::class,'detail']);
 
+    Route::get('/category/electronics/{slug}',[SubcategoryController::class,'detail']);
 
 
 

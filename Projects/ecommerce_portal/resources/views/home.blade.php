@@ -1,9 +1,11 @@
 @extends('layouts.main')
+
 @push('title')
 
     <title>Home Page</title>
 
 @endpush
+
 @section('content')
 
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -32,7 +34,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
+    
 {{--    Product Section --}}
 
     <section class="my-5">
