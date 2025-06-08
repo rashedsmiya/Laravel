@@ -34,7 +34,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    
+
 {{--    Product Section --}}
 
     <section class="my-5">

@@ -9,7 +9,7 @@
     <h1 class="text-center"><i class="fa-solid fa-layer-group"></i> Category</h1>
  </div>
 
-{{--    Products--}}  
+{{--    Products--}}
 
  <section class="my-5">
      <div class="container">
@@ -118,7 +118,7 @@
                      </div>
                  </div>
              </div>
-
+                            
              <div class="col-lg-3">
                  <div class="card">
 
