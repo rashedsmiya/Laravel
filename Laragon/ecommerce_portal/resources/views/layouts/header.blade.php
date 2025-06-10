@@ -14,12 +14,12 @@
 	    <nav class="navbar navbar-expand-lg theme-navbar">
 		  <div class="container">
 		    <a class="navbar-brand text-light" href="#"><h1> E Commerce </h1></a>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
-		    </button>
+		    </button> -->
 		    <div>	      
 		      <form class="d-flex" role="search">
-		        <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search"/>
+		        <input class="form-control form-control-sm" style="width:350px;" type="search" placeholder="Search for Products" aria-label="Search"/>
 		        <button class="btn btn-light text-secondary btn-sm" type="submit"><i class="fa-solid fa-search"></i></button>
 		      </form>
 		    </div>    
@@ -29,4 +29,34 @@
 		    	 <a href="#" class="btn theme-orange-btn btn-sm text-light"><i class="fa-solid fa-user"></i> Login</a>
 		    </div> 
 		  </div>
+		</nav>
+
+		<!-- Category Nav  -->
+
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">			 
+				 
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="nav">
+						<li class="nav-item">
+						<a class="nav-link active text-dark" aria-current="page" href="#">Mobile</a>
+						</li>
+						 <li class="nav-item">
+						<a class="nav-link active text-dark" aria-current="page" href="#">Fashion</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active text-dark" aria-current="page" href="#">Electronincs</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active text-dark" aria-current="page" href="#">Furniture</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active text-dark" aria-current="page" href="#">Grocery</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link active text-dark" aria-current="page" href="#">Applinces</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
