@@ -4,11 +4,16 @@
 
     use Illuminate\Http\Request;
 
-    class SubcategoryController extends Controller
+    class ProductdetailController extends Controller
     {
         public function detail($slug){
-            return view('subcategory');
+            return view('product-detail');
         }
     }
 
-    
+
+
+
+
+
+

@@ -17,38 +17,37 @@
 			      <span class="navbar-toggler-icon"></span>
 			    </button> --> 
 			    <div>	           
-			      <form class="d-flex" role="search">      
-			        <input class="form-control form-control-sm" style="width:350px;" type="search" placeholder="Search for Products" aria-label="Search"/>
+			      <form class="d-flex" role="search">                                                                                                    
+			        <input class="form-control form-control-sm" style="width:350px;" type="search" placeholder="Search for Products" aria-label="Search"/> 
 			        <button class="btn btn-light text-secondary btn-sm" type="submit"><i class="fa-solid fa-search"></i></button>
 			      </form>
 			    </div>      
 			    <div>            
 			    	 <a href="#" class="text-decoration-none text-light">Become a Seller</a> 
-			    	 <a href="#" class="btn theme-green-btn btn-sm text-light"><i class="fa-solid fa-cart-shopping"></i> Card</a>
+			    	 <a href="{{url('cart-list/Product')}}" class="btn theme-green-btn btn-sm text-light"><i class="fa-solid fa-cart-shopping"></i> Card</a>
 			    	 <a href="#" class="btn theme-orange-btn btn-sm text-light"><i class="fa-solid fa-user"></i> Login</a>
 			    </div> 
-			  </div>  
-		</nav>
+			  </div>     
+		</nav> 
 
-		<!-- Category Nav  -->  
+		<!-- Category Nav  -->   
 
-		<nav class="navbar navbar-expand-lg theme-navbar-light">  
+		<nav class="navbar navbar-expand-lg theme-navbar-light">   
 			<div class="container-fluid">			 
-				  
 				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 					<ul class="nav">
 						<li class="nav-item">
 						<a class="nav-link active text-dark"   href="{{url('/category/electronics')}}">Mobile</a>
-						</li>
+						</li>     
 						 <li class="nav-item">
 						<a class="nav-link active text-dark" aria-current="page" href="#">Fashion</a>
-						</li>   
+						</li>    
 						<li class="nav-item">   
 						<a class="nav-link active text-dark" aria-current="page" href="#">Electronincs</a>
 						</li>
 						<li class="nav-item">
 						<a class="nav-link active text-dark" aria-current="page" href="#">Furniture</a>
-						</li>
+						</li> 
 						<li class="nav-item">
 						<a class="nav-link active text-dark" aria-current="page" href="#">Grocery</a>
 						</li>
@@ -58,4 +57,5 @@
 					</ul>
 				</div>
 			</div>     
-		</nav>
+		</nav> 
+

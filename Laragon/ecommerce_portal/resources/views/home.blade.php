@@ -58,7 +58,7 @@
 								 	 
 		    				</div>						  
 						</div>
-		    		</div>
+		    		</div>   
 
 		    		<div class="col-lg-3">
 		    			<div class="card">
