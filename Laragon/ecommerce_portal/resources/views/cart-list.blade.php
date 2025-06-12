@@ -25,8 +25,8 @@
 								  	 <th scope="col"><h3>Subtotal</h3></th>
 								  	 <th scope="col"><h3>Remove</h3></th>
 								</tr>
-						  </thead>
-						  <tbody>
+						  </thead>  
+						  <tbody>   
 						  	    <tr>
 						  	    	<th>
 						  	    		<div class="d-flex">
