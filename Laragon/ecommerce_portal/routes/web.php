@@ -7,6 +7,7 @@
     use App\Http\Controllers\SubcategoryController;
     use App\Http\Controllers\ProductdetailController;
     use App\Http\Controllers\CartController;
+    use App\Http\Controllers\CheckoutController;
     
         
     Route::get('/', function () {
@@ -24,4 +25,4 @@
 
     Route::get('/cart-list/{slug}',[CartController::class,'list']);
     
-    
+    Route::get('/checkout/{slug}',[CheckoutController::class,'checkout']);

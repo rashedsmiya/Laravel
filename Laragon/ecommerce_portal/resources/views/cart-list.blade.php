@@ -1,7 +1,7 @@
 @extends('layouts.main')
  
  @push('title')  
- <title>Product Details</title> 
+ <title>Cart List</title> 
  @endpush  
 
  @section('content')        
@@ -102,8 +102,37 @@
 						  </tbody>
 					</table>
 				</div>
-			</div>
-		</div>
+				<div class="col-lg-5 ms-auto my-5">
+				    <div>
+				    	<h5>Price Details</h5>
+				    </div>
+				    
+				    <div class="d-flex">
+				    	  <div><h5>Subtotal</h5></div>
+				    	  <div class="ms-auto"><h5>$ 799.00</h5></div>
+				    </div>
+
+				    <div class="d-flex">
+				    	  <div>Discount</div>
+				    	  <div class="ms-auto"><h5>$ 99.00</h5></div>
+				    </div>
+
+				    <div class="d-flex">
+				    	  <div>Delivery Charges</div>
+				    	  <div class="ms-auto"><h5>Free</h5></div>
+				    </div>
+				    <hr>
+
+				    <div class="d-flex">
+				    		<div><h4>Total</h4></div>
+				    		<div class="ms-auto"><h5>$ 700.00</h5></div>
+				    </div>
+
+				    <div class="mt-4">
+				    	  <a href="{{url('checkout/Product')}}" class="btn theme-green-btn text-light rounded-pill w-100">Proceed to Checkout <i class="fa-solid fa-arrow-right"></i></a></div>
+				    </div>
+			    </div>
+		   </div>
     </section>    
 	         
 @endsection  
